@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'Brooklyn';
+    src: url('path/to/brooklyn.woff2') format('woff2'),
+         url('path/to/brooklyn.woff') format('woff');
+  
+  }
+  
+  @font-face {
+    font-family: 'Poppins';
+    src: url('path/to/poppins.woff2') format('woff2'),
+         url('path/to/poppins.woff') format('woff');
+  }
+
+  .skip {
+    position: absolute;
+    left: -100px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+  }
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  @media screen and (max-width: 1024px) {
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      gap: 10px;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .grid-container img {
+      max-width: 100%;
+      height: auto;
+      border: 2px solid black;
+      justify-self: center; 
+      align-self: center; 
+    }
+  
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      gap: 10px;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    h1 {
+      margin: 20px;
+    }
+  
+    .nav-bar {
+      padding: 30px;
+      margin: 30px;
+    }
+  
+    .gallery {
+      grid-template-columns: 2fr 2fr;
+      grid-template-rows: 2fr 2fr;
+    }
+  }
+  
+  
