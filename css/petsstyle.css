@@ -83,8 +83,8 @@ h1 {
   padding: 50px;
   margin: 20px; 
   text-align: center;
-  background: rgb(244,146,240);
-  background: linear-gradient(90deg, rgba(244,146,240,1) 0%, rgba(249,197,141,1) 100%);
+  background: rgb(181,255,236);
+  background: linear-gradient(90deg, rgba(181,255,236,1) 19%, rgba(240,230,255,1) 45%, rgba(255,234,135,1) 62%, rgba(250,190,255,1) 100%);
 }
 
 h2 {
